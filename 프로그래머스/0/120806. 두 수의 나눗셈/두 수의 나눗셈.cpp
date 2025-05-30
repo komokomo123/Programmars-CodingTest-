@@ -4,7 +4,5 @@
 using namespace std;
 
 int solution(int num1, int num2) {
-    double answer = static_cast<double>(num1) / num2;
-    answer *= 1000;
-    return static_cast<int>(answer);
+    return (num1 * 1000)/num2 ;
 }
